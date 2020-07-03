@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">API Github Users</string>
+
+    <string name="avatar">Foto Profil</string>
+    <string name="tab_text_1">Pengikut</string>
+    <string name="tab_text_2">Mengikuti</string>
+
+    <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
+
+    <string name="search_username">Cari nama pengguna</string>
+    <string name="github_logo">Logo Github</string>
+
+    <string name="change_settings">Ubah Pengaturan</string>
+    <string name="show_favorite_list">Tampilkan daftar favorit</string>
+    <string name="daily_reminder">Pengingat harian</string>
+    <string name="remind_to_return_to_application">Ingatkan untuk Kembali ke Aplikasi</string>
+    <string name="language_settings">Pengaturan Bahasa</string>
+    <string name="button_favorite">Tombol Favorit</string>
+
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">API Github Users</string>
+
+    <string name="avatar">Avatar</string>
+    <string name="tab_text_1">Follower</string>
+    <string name="tab_text_2">Following</string>
+
+    <string name="change_language_settings">Change language settings</string>
+
+    <string name="search_username">Search username</string>
+    <string name="github_logo">Github Logo</string>
+
+    <string name="change_settings">Change settings</string>
+    <string name="show_favorite_list">Show favorite list</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="remind_to_return_to_application">Remind to Return to Application</string>
+    <string name="language_settings">Language Settings</string>
+    <string name="button_favorite">Button Favorite</string>
+
+</resources>
