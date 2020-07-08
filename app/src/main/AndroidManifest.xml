@@ -4,6 +4,13 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <permission
+        android:name="com.arya.apigithubusers.provider.READ_DATABASE"
+        android:protectionLevel="normal" />
+    <permission
+        android:name="com.arya.apigithubusers.provider.WRITE_DATABASE"
+        android:protectionLevel="normal" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,7 +19,25 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".activity.SettingsActivity"></activity>
+        <receiver android:name=".widget.ImageBannerWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/image_banner_widget_info" />
+        </receiver>
+
+        <provider
+            android:name=".provider.FavoriteProvider"
+            android:authorities="com.arya.apigithubusers.provider"
+            android:enabled="true"
+            android:exported="true"
+            android:readPermission="com.arya.apigithubusers.provider.READ_DATABASE"
+            android:writePermission="com.arya.apigithubusers.provider.WRITE_DATABASE" />
+
+        <activity android:name=".activity.SettingsActivity" />
         <activity android:name=".activity.FavoriteActivity" />
         <activity android:name=".activity.SplashScreenctivity">
             <intent-filter>
@@ -23,10 +48,15 @@
         </activity>
         <activity android:name=".activity.DetailActivity" />
         <activity android:name=".activity.MainActivity" />
+
         <receiver
             android:name=".reminder.AlarmReceiver"
             android:enabled="true"
-            android:exported="true"/>
+            android:exported="true" />
+
+        <service
+            android:name="com.arya.apigithubusers.widget.StackWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
     </application>
 
 </manifest>

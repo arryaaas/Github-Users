@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':consumerapp'
 rootProject.name='API Github Users'

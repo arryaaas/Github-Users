@@ -17,5 +17,7 @@
     <string name="remind_to_return_to_application">Ingatkan untuk Kembali ke Aplikasi</string>
     <string name="language_settings">Pengaturan Bahasa</string>
     <string name="button_favorite">Tombol Favorit</string>
+    <string name="appwidget_text">Favorite Github User</string>
+    <string name="empty_text">Tidak ada data</string>
 
 </resources>

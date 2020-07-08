@@ -8,7 +8,7 @@ import android.view.animation.AnimationUtils
 import com.arya.apigithubusers.R
 import kotlinx.android.synthetic.main.activity_splash_screen.*
 
-class SplashScreenctivity : AppCompatActivity() {
+class SplashScreenActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

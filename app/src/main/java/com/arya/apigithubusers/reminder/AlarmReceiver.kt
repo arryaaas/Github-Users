@@ -28,7 +28,7 @@ class AlarmReceiver: BroadcastReceiver() {
         val builder = NotificationCompat.Builder(context, "daily_reminder")
             .setContentIntent(pendingIntent)
             .setSmallIcon(R.drawable.ic_notifications_active)
-            .setContentTitle("Reminder")
+            .setContentTitle("API Github Users")
             .setContentText("Let's find popular user on Github!")
             .setAutoCancel(true)
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)

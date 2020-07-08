@@ -16,5 +16,7 @@
     <string name="remind_to_return_to_application">Remind to Return to Application</string>
     <string name="language_settings">Language Settings</string>
     <string name="button_favorite">Button Favorite</string>
+    <string name="appwidget_text">Favorite Github User</string>
+    <string name="empty_text">NO DATA</string>
 
 </resources>

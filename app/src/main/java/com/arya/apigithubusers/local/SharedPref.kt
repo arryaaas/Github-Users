@@ -14,7 +14,6 @@ class SharedPref(context: Context) {
     }
 
     fun loadReminderState(): Boolean? {
-        val state = sharedPref.getBoolean("DailyReminder", false)
-        return state
+        return sharedPref.getBoolean("DailyReminder", false)
     }
 }

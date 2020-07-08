@@ -16,6 +16,7 @@ import com.arya.apigithubusers.model.UserItems
 import com.arya.apigithubusers.fragment.FollowFragment
 import com.arya.apigithubusers.toast
 import com.arya.apigithubusers.viewmodel.DetailViewModel
+import com.arya.apigithubusers.widget.ImageBannerWidget
 import com.bumptech.glide.Glide
 import com.google.android.material.appbar.CollapsingToolbarLayout
 import kotlinx.android.synthetic.main.activity_detail.*
@@ -148,10 +149,12 @@ class DetailActivity : BaseActivity() {
                     val isFavorite = FavDb(it).favDao().isFavoriteUser(id)
                     if (isFavorite != 1) {
                         FavDb(it).favDao().saveUser(fav)
+                        ImageBannerWidget.updateWidget(it)
                         fab.setImageResource(R.drawable.ic_favorite_white_24dp)
                         it.toast("Added To Favorite")
                     } else {
                         FavDb(it).favDao().delUser(fav)
+                        ImageBannerWidget.updateWidget(it)
                         fab.setImageResource(R.drawable.ic_favorite_border_white_24dp)
                         it.toast("Removed From Favorite")
                     }
