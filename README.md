@@ -13,6 +13,7 @@ Some facts about this project:
 
 ## Features
 
+- Displays a list of github users
 - Search for github users
 - Add and remove github users in favorite list
 - Displays a list of followers and followers
