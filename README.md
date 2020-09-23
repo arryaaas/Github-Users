@@ -9,7 +9,7 @@ Some facts about this project:
 - Uses Android ViewModels
 - Uses Room Persistence Library
 - Uses [LoopJ](https://loopj.com/android-async-http/) Library for networking
-- Uses [The Movie Database (TMDB) API](https://www.themoviedb.org/documentation/api)
+- Uses [GitHub API v3](https://developer.github.com/v3/)
 - Uses a Content Provider (the database can be accessed by other applications)
 - Consumer App (consumes data from github user application database)
 
