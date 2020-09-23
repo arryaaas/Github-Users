@@ -13,14 +13,15 @@ Some facts about this project:
 
 ## Features
 
-- Displays a list of github users
-- Search for github users
-- Add and remove github users in favorite list
-- Displays a list of followers and followers
+- Search for github user's
 - Daily reminder notifications
 - Change language (Indonesian & English)
-- Widget which displays a list of favorite Github users
+- Displays a list of github user's
+- Displays a list of followers and followers
+- Displays a list of favorite github user's
+- Add and remove github user's in favorite list
 - Collapse appbar on github user detail activity
+- Widget which displays a list of favorite Github user's
 
 ## License
 
