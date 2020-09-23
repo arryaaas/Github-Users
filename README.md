@@ -16,7 +16,7 @@ Some facts about this project:
 ## Features
 
 - Search for github users
-- Add github users in favorite list
+- Add and remove github users in favorite list
 - Displays a list of followers and followers
 - Daily reminder notifications
 - Change language (Indonesian & English)
