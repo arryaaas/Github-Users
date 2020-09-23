@@ -18,6 +18,7 @@ Some facts about this project:
 - Displays a list of github user's
 - Displays a list of followers and followers
 - Displays a list of favorite github user's
+- Displays a detail information of github user's
 - Change language (Indonesian & English)
 - Add and remove github user's in favorite list
 - Collapse appbar on github user detail activity
