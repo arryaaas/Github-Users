@@ -1,7 +1,5 @@
 # Github-Users
 
-Github User's is an android movie catalog application
-
 Some facts about this project:
 
 - Completly written in Kotlin
