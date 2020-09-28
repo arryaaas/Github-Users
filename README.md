@@ -17,6 +17,7 @@ Some facts about this project:
 
 ## Features
 
+The Github User's app lets you:
 - Search for github user's
 - Daily reminder notifications
 - Displays a list of github user's
@@ -27,6 +28,10 @@ Some facts about this project:
 - Add and remove github user's in favorite list
 - Collapse appbar on github user detail activity
 - Widget which displays a list of favorite Github user's
+
+## Requirements
+
+Minimum API : 23
 
 ## License
 
