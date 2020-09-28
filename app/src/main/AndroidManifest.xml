@@ -39,7 +39,7 @@
 
         <activity android:name=".activity.SettingsActivity" />
         <activity android:name=".activity.FavoriteActivity" />
-        <activity android:name=".activity.SplashScreenctivity">
+        <activity android:name=".activity.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

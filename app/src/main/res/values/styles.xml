@@ -4,8 +4,9 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="android:colorBackground">@color/white</item>
-        <item name="android:statusBarColor">@color/white</item>
-        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/soft_grey</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorAccent">@color/blue</item>
     </style>
 
 </resources>

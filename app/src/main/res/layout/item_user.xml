@@ -5,7 +5,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="16dp">
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/img_avatar"
@@ -13,7 +14,7 @@
         android:layout_height="50dp"
         android:contentDescription="@string/avatar"
         app:civ_border_color="@color/grey"
-        app:civ_border_width="2dp"
+        app:civ_border_width="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/tv_username"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,5 +32,14 @@
         tools:text="Username"
         android:textSize="18sp"
         android:textColor="@color/black"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        app:layout_constraintTop_toBottomOf="@id/img_avatar"
+        app:layout_constraintStart_toStartOf="@id/tv_username"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp"
+        android:background="@color/line_color"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

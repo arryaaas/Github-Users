@@ -183,6 +183,8 @@ class DetailActivity : BaseActivity() {
             tv_company.visibility = View.GONE
             tv_location.visibility = View.GONE
             tv_repository.visibility = View.GONE
+            logo_left.visibility = View.GONE
+            logo_right.visibility = View.GONE
         } else {
             pb_detail.visibility = View.GONE
             img_avatar.visibility = View.VISIBLE
@@ -191,6 +193,8 @@ class DetailActivity : BaseActivity() {
             tv_company.visibility = View.VISIBLE
             tv_location.visibility = View.VISIBLE
             tv_repository.visibility = View.VISIBLE
+            logo_left.visibility = View.VISIBLE
+            logo_right.visibility = View.VISIBLE
         }
     }
 }

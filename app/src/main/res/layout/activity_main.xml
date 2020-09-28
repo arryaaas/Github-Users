@@ -14,7 +14,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:background="@color/white"
+        android:background="@color/soft_grey"
         android:elevation="4dp">
 
         <androidx.appcompat.widget.Toolbar
@@ -24,6 +24,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:titleTextColor="@color/white"
             app:title=""/>
 
         <androidx.appcompat.widget.SearchView

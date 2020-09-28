@@ -4,9 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import android.view.animation.AnimationUtils
 import com.arya.apigithubusers.R
-import kotlinx.android.synthetic.main.activity_splash_screen.*
 
 class SplashScreenActivity : AppCompatActivity() {
 
@@ -21,10 +19,5 @@ class SplashScreenActivity : AppCompatActivity() {
 
         }, 2000)
 
-        val stb = AnimationUtils.loadAnimation(this, R.anim.stb)
-        val btt = AnimationUtils.loadAnimation(this, R.anim.btt)
-
-        logo.startAnimation(stb)
-        tv_app_name.startAnimation(btt)
     }
 }

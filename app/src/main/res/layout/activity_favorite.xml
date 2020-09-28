@@ -15,7 +15,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:title=""
         android:elevation="4dp"
-        android:background="@color/white"
+        app:titleTextColor="@color/white"
+        android:background="@color/soft_grey"
         app:navigationIcon="@drawable/ic_arrow_back_black_24dp"/>
 
     <androidx.recyclerview.widget.RecyclerView

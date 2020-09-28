@@ -4,4 +4,6 @@
     <color name="black">#000000</color>
     <color name="grey">#9E9E9E</color>
     <color name="blue">#7DBAE7</color>
+    <color name="soft_grey">#3C4250</color>
+    <color name="line_color">#757575</color>
 </resources>
