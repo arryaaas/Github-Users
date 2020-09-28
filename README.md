@@ -11,6 +11,10 @@ Some facts about this project:
 - Uses a Content Provider (the database can be accessed by other applications)
 - Consumer App (consumes data from github user application database)
 
+## Preview App
+
+![](PreviewApp.png)
+
 ## Features
 
 - Search for github user's
