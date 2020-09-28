@@ -31,7 +31,7 @@ The Github User's app lets you:
 
 ## Requirements
 
-Minimum API : 23
+minSdkVersion : 23
 
 ## License
 
