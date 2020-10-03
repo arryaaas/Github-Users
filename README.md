@@ -13,7 +13,7 @@ Some facts about this project:
 
 ## Preview App
 
-![](PreviewApp.png)
+![](GithubUsersPreview.png)
 
 ## Features
 
