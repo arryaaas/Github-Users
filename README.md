@@ -2,7 +2,7 @@
 
 Some facts about this project:
 
-- Completly written in Kotlin
+- Completely written in Kotlin
 - Uses MVVM Design Pattern
 - Uses Android ViewModels
 - Uses Room Persistence Library
