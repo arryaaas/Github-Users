@@ -3,12 +3,12 @@
 Some facts about this project:
 
 - Completely written in Kotlin
-- Uses MVVM Design Pattern
-- Uses Android ViewModels
-- Uses Room Persistence Library
-- Uses [LoopJ](https://loopj.com/android-async-http/) Library for networking
-- Uses [GitHub API v3](https://developer.github.com/v3/)
-- Uses a Content Provider (the database can be accessed by other applications)
+- Using MVVM Design Pattern
+- Using Android ViewModels
+- Using Room Persistence Library
+- Using [LoopJ](https://loopj.com/android-async-http/) Library for networking
+- Using [GitHub API v3](https://developer.github.com/v3/)
+- Using a Content Provider (the database can be accessed by other applications)
 - Consumer App (consumes data from github user application database)
 
 ## Preview App
